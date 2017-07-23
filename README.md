@@ -2,49 +2,25 @@
 
 ## Prerequisites
 
-You need the following installed:
+This less assumes you have completed the initial set-up in branch `master`.
 
-- an IDE, e.g. [Visual Studio Code](https://code.visualstudio.com/)
-- [git command line client](https://git-scm.com/downloads)
-- a [github](http://github.com) account
+## Tables
 
-## Set-up
+It's time to explore some more HTML elements.
 
-## Getting started
+Tables are often used to display data in a grid. They consist of a nested structure of `table`, `thead`, `tbody`, `tr` (row), `th` (header cell) and `td` (regular cell) elements.
 
-- Fork this project into your github account
-- Clone your copied project to your workspace
+Try creating a table of some data - just 3 rows and 2 or 3 columns for now. You can decide what data to use, think of something you're interested in, whether it's footballers (name, team, nationality) or music (singer, band, latest album).
 
-`git clone https://github.com/<your_github_userid>/HtmlCssTutorial.git`
+## Lists
 
-## Introduction to Markup
+Lists can be ordered or unordered. Unordered lists typically have bullet points, while ordered lists are given a numerical indicator (1, 2, 3, 4 etc.) or (i, ii, iii, iv, etc.)
 
-HTML files are used across the internet to generate the content in web pages.
+Create an unordered list (`ul`) with a few list items (`li`). The content can be anything, you choose - your favourite bands, sports you're interested... whatever you like.
 
-They consist of the following top-level components:
+## Headers
 
-- an HTML declaration: `<!DOCTYPE html>`. This just tells the browser that this is an HTML document. There are different forms of HTML declarations, this is the one for HTML 5.
-- a `<head></head>` section, with information about the page - this is not visible on the final page
-- a `<body></body>` section, that contains everything that is visible in the page
-
-HTML stands for HyperText Markup Language. Markup is any form of structured text that describes how something should be displayed. This page is written in a different form of markup, called (confusingly) Markdown.
-
-The markup in HTML consists of `elements`, that have an opening tag and a closing tag. We have already seen three such elements: `html`, `head` and `body`.
-
-Opening tags look like this `<html>` and closing tags look like this `</html>`. Everything in between is the element's `content`. This content can be other `elements`, or just plain text.
-
-Elements often (but not always) include `attributes`, as `key="value"` pairs. These attributes are included inside the opening tag, separated by spaces: `<p class="highlight">`.
-
-## First exercise
-
-Try adding a few elements to the file `index.html`.
-
-- a title element inside `<head></head>`. The content of the element is the title text.
-- a level one header element `<h1>` inside `<body></body>`, containing the text `My First HTML Page`
-
-Open this file up in the browser and take a look.
-
-If you can't see the title, that's because it's not inside the body element, so not contained in the page. You should be able to see it somewhere outside of the page though.
+We have a top-level header (`h1`) for the whole page. Now add a second-level header (`h2`) for both your table and your list.
 
 ## Links
 
